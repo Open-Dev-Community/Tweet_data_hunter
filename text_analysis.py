@@ -1,6 +1,6 @@
 from rake_nltk import Rake
-import nltk,re
-from nltk.sentiment.vader import SentimentIntensityAnalyzer
+import re
+import nltk_lib
 
 data_ip='Innovative Incentives & Rewards, a full service corporate relationship marketing agency specializing in Customer #Loyalty Programs & #Reward Management in India'
 
@@ -11,7 +11,7 @@ def rank_words(data_ip):
     return r.get_ranked_phrases()
 
 def sentiment_analyzer(test_subset):      #Analyses the state of the words
-    sid = SentimentIntensityAnalyzer()
+    sid = nltk_lib.SentimentIntensityAnalyzer()
 
     test_subset=rank_words(test_subset)
     
@@ -38,7 +38,7 @@ def sentiment_analyzer(test_subset):      #Analyses the state of the words
 
 
 def senti_score(test_subset):#Analyses the state of the words
-    sid = SentimentIntensityAnalyzer()
+    sid = nltk_lib.SentimentIntensityAnalyzer()
 
     senti_score=sid.polarity_scores(test_subset)['compound']
     return senti_score
