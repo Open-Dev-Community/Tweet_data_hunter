@@ -1,5 +1,13 @@
 # Tweet_data_hunter
-
+<p align = "left">
+    <img alt="OpenDevCommunity" src="https://img.shields.io/badge/MadeBy-OpenDevCommunity-orange"></a>
+</p>
+<p align="left">
+    <img alt="Github license" src="https://img.shields.io/github/license/Open-Dev-Community/Tweet_data_hunter"></a>
+   <img alt="GitHub issues" src="https://img.shields.io/github/issues/Open-Dev-Community/Tweet_data_hunter"></a>
+   <img alt="GitHub stars" src="https://img.shields.io/github/stars/Open-Dev-Community/Tweet_data_hunter"></a>
+    <a href="https://github.com/Open-Dev-Community/Tweet_data_hunter" alt="Contributors">
+</p>
 
 
 # ✨ Contributing to Tweet_data_hunter
@@ -46,3 +54,4 @@ By contributing, you agree that your contributions will be licensed under its MI
 ## ❤️ Thanks to our awesome contributors.
 
 ### 🌟 STAR AND FORK THE REPOSITORY FOR YOUR FUTURE REFERENCE.🌟
+
