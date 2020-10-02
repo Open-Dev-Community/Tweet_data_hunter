@@ -3,6 +3,8 @@ import json
 from tqdm import tqdm
 from text_analysis import senti_score,sentiment_analyzer
 
+nltk.download('vader_lexicon')
+
 data=[]
 
 with open('tweets.txt','r') as f:
