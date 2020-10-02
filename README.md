@@ -1,6 +1,8 @@
 # Tweet_data_hunter
 <p align = "left">
     <img alt="OpenDevCommunity" src="https://img.shields.io/badge/MadeBy-OpenDevCommunity-orange"></a>
+    <a href="https://github.com/Open-Dev-Community/Tweet_data_hunter" alt="Contributors">
+    <img src="https://img.shields.io/github/contributors/Open-Dev-Community/Tweet_data_hunter"/><a>
 </p>
 <p align="left">
     <img alt="Github license" src="https://img.shields.io/github/license/Open-Dev-Community/Tweet_data_hunter"></a>
