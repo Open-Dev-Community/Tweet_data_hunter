@@ -2,6 +2,7 @@ import sqlite3
 import json
 from tqdm import tqdm
 from text_analysis import senti_score,sentiment_analyzer
+import nltk
 
 nltk.download('vader_lexicon')
 
