@@ -6,14 +6,10 @@ import nltk
 
 nltk.download('vader_lexicon')
 
-data=[]
-
 with open('tweets.txt','r') as f:
     raw_data=f.readlines()
 
-for i in raw_data:
-    if len(i)>1:
-        data.append(i)
+data = [i for i in raw_data if len(i)>1]
 
 ##################################################################################################--DATABASE INSERT--################################################################################################
 
@@ -49,8 +45,7 @@ def score_view():
         cur = conn.cursor()
         cmd='select id,usr_name,tweet_txt,descr from tweet_data'
         cur.execute(cmd)
-        op=cur.fetchall()
-        return op
+        return cur.fetchall()
     except:
         print('Failed Data load')
     finally:
