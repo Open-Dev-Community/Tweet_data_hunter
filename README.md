@@ -1,16 +1,14 @@
 # Tweet_data_hunter
-<p align = "center">
+<p align = "left">
     <img alt="OpenDevCommunity" src="https://img.shields.io/badge/MadeBy-OpenDevCommunity-orange"></a>
 </p>
-<p align="center">
+<p align="left">
+    <img alt="Github license" src="https://img.shields.io/github/license/Open-Dev-Community/Tweet_data_hunter"></a>
    <img alt="GitHub issues" src="https://img.shields.io/github/issues/Open-Dev-Community/Tweet_data_hunter"></a>
    <img alt="GitHub stars" src="https://img.shields.io/github/stars/Open-Dev-Community/Tweet_data_hunter"></a>
-   <img alt="Github license" src="https://img.shields.io/github/license/Open-Dev-Community/Tweet_data_hunter"></a>
-</p>
-<p align = "center">
     <a href="https://github.com/Open-Dev-Community/Tweet_data_hunter" alt="Contributors">
-    <img src="https://img.shields.io/github/contributors/Open-Dev-Community/Tweet_data_hunter"/><a>
 </p>
+
 
 # ✨ Contributing to Tweet_data_hunter
 
