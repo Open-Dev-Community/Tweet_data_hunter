@@ -40,6 +40,5 @@ def sentiment_analyzer(test_subset):      #Analyses the state of the words
 def senti_score(test_subset):#Analyses the state of the words
     sid = nltk_lib.SentimentIntensityAnalyzer()
 
-    senti_score=sid.polarity_scores(test_subset)['compound']
-    return senti_score
+    return sid.polarity_scores(test_subset)['compound']
 

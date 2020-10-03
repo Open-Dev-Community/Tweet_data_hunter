@@ -5,7 +5,7 @@ from trending import trending_topics
 def trending_fetch():
     (names,tweet_vol,location,started_at)=trending_topics()
     print('Top 10 trending things around the world : '+str(started_at)+':\n')
-    for i in range(0,10):
+    for i in range(10):
         print(names[i],"   ",str(tweet_vol[i]))
     
     
